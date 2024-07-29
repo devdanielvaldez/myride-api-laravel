@@ -2,14 +2,13 @@ importScripts("https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js");
 importScripts("https://www.gstatic.com/firebasejs/8.10.1/firebase-messaging.js");
 
 firebase.initializeApp({
-  apiKey: "AIzaSyBaGdE9AAEaXoAJbed4X8-btY7XmCDEGOY",
-  authDomain: "myride-capcana.firebaseapp.com",
-  databaseURL: "https://myride-capcana-default-rtdb.firebaseio.com",
-  projectId: "myride-capcana",
-  storageBucket: "myride-capcana.appspot.com",
-  messagingSenderId: "552752569147",
-  appId: "1:552752569147:web:0ea67235d0aa9e971bf51e",
-  measurementId: "G-T3CK7LG81J"
+  apiKey: "AIzaSyD_5IV9n49aq0nqj8k1mU2Bhus5YJn_Rbc",
+  authDomain: "myride-taxi-prod.firebaseapp.com",
+  databaseURL: "https://myride-taxi-prod-default-rtdb.firebaseio.com",
+  projectId: "myride-taxi-prod",
+  storageBucket: "myride-taxi-prod.appspot.com",
+  messagingSenderId: "553189906417",
+  appId: "1:553189906417:web:2998df0e9643e1fdf01650"
 });
 
 const messaging = firebase.messaging();
